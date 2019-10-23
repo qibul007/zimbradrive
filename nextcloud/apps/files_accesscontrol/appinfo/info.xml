@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_accesscontrol</id>
+	<name>File access control</name>
+	<description>An app for Nextcloud to control the access to files based on some conditions</description>
+	<licence>AGPL</licence>
+	<author>Morris Jobke</author>
+	<version>1.1.2</version>
+	<namespace>FilesAccessControl</namespace>
+
+	<category>other</category>
+	<website>https://github.com/nextcloud/files_accesscontrol</website>
+	<bugs>https://github.com/nextcloud/files_accesscontrol/issues</bugs>
+	<repository type="git">https://github.com/nextcloud/files_accesscontrol.git</repository>
+
+	<types>
+		<filesystem/>
+	</types>
+
+	<dependencies>
+		<nextcloud min-version="11" max-version="11" />
+	</dependencies>
+
+	<documentation>
+		<admin>admin-files-access-control</admin>
+	</documentation>
+
+	<settings>
+		<admin-section>OCA\FilesAccessControl\Settings\Section</admin-section>
+		<admin>OCA\FilesAccessControl\Settings\Admin</admin>
+	</settings>
+</info>

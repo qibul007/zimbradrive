@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_retention</id>
+	<name>Retention</name>
+	<licence>AGPL</licence>
+	<author>Roeland Jago Douma</author>
+	<description>
+		This application allows for automatic deletion of files after a given time
+	</description>
+	<version>1.0.1</version>
+	<types>
+		<filesystem/>
+	</types>
+	<namespace>Files_Retention</namespace>
+	<dependencies>
+		<nextcloud min-version="11" max-version="11" />
+	</dependencies>
+
+	<settings>
+		<admin>OCA\Files_Retention\Settings\Admin</admin>
+	</settings>
+</info>
